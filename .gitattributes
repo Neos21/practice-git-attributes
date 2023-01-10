@@ -2,6 +2,7 @@
 *.gitattributes linguist-detectable=true
 # 言語を指定する
 *.gitattributes linguist-language=Git-Attributes
+*.md linguist-language=Git-Attributes
 # ドキュメント扱いをさせない
 *.gitattributes linguist-documentation=false
 
