@@ -1,0 +1,30 @@
+# 指定のファイルを言語判定に認識させる
+*.gitattributes linguist-detectable=true
+# 言語を指定する
+*.gitattributes linguist-language=Git-Attributes
+# ドキュメント扱いをさせない
+*.gitattributes linguist-documentation=false
+
+
+# 言語判定に認識させる例
+#*.csv linguist-detectable=true
+#*.json linguist-detectable=true
+
+# Markdown を判定させる例
+#README.md linguist-detectable=true
+#*.md linguist-detectable=true
+#*.md linguist-language=Markdown
+#*.md linguist-documentation=false
+
+# 言語判定から除外する例
+#*.css linguist-detectable=false
+#*.html linguist-detectable=false
+#*.js linguist-detectable=false
+
+# 他の全てを除外して特定ファイルのみ言語判定に認識させる例 1
+#* linguist-detectable=false
+#*.browserslistrc linguist-detectable=true
+
+# 他の全てを除外して特定ファイルのみ言語判定に認識させる例 2
+#* linguist-vendored=true
+#*.rs linguist-vendored=false
