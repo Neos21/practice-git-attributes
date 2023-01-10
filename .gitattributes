@@ -3,8 +3,8 @@
 README.md linguist-detectable=true
 *.md linguist-detectable=true
 # 言語を指定する
-*.gitattributes linguist-language=Git Attributes
-*.md linguist-language=Git Attributes
+*.gitattributes linguist-language=Git Config
+*.md linguist-language=Git Config
 # ドキュメント扱いをさせない
 *.gitattributes linguist-documentation=false
 *.md linguist-documentation=false
