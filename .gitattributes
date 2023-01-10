@@ -1,10 +1,13 @@
 # 指定のファイルを言語判定に認識させる
 *.gitattributes linguist-detectable=true
+README.md linguist-detectable=true
+*.md linguist-detectable=true
 # 言語を指定する
 *.gitattributes linguist-language=Git Attributes
 *.md linguist-language=Git Attributes
 # ドキュメント扱いをさせない
 *.gitattributes linguist-documentation=false
+*.md linguist-documentation=false
 
 
 # 言語判定に認識させる例
